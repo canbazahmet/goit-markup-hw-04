@@ -23,6 +23,8 @@ ul {
 .header-section {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-section .header-top {
@@ -56,8 +58,9 @@ ul {
 }
 
 .header-section .header-top .nav-menu .nav-links li .nav-link {
+  position: relative;
   text-decoration: none;
-  color: #2e2f42;
+  color: #404bbf;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -100,6 +103,8 @@ ul {
 
 .hero-section {
   background-color: #2e2f42;
+  background-image: url(../images/people-office.png);
+  background-size: cover;
   color: #ffffff;
   padding: 188px 0;
 }
