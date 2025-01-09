@@ -453,6 +453,24 @@ ul {
   padding: 100px 0;
 }
 
+.footer-section .container .footer-main {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-section .container .footer-main .footer-left {
+  margin-right: 120px;
+}
+
+.footer-section .container .footer-main .footer-center .social-media-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
 .footer-section .container .nav-logo {
   display: inline-block;
   font-family: "Raleway", sans-serif;
