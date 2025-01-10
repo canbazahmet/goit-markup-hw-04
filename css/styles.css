@@ -396,6 +396,16 @@ ul {
 .our-portfolio-section
   .container
   .our-portfolio-items
+  .our-portfolio-item:hover
+  .our-portfolio-img
+  .our-portfolio-p {
+  transform: translateY(0%);
+  margin: 0;
+}
+
+.our-portfolio-section
+  .container
+  .our-portfolio-items
   .our-portfolio-item
   .our-portfolio-img
   .our-portfolio-p {
@@ -536,4 +546,14 @@ ul {
   .sm-ellipse
   .sm-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-section
+  .footer-main
+  .footer-center
+  .footer-sm
+  .sm-ellipse
+  .sm-link
+  .icon {
+  fill: #f4f4fd;
 }
